@@ -392,6 +392,9 @@ enum vx_kernel_e {
     * \see group_vision_function_min
     */
     VX_KERNEL_MIN = VX_KERNEL_BASE(VX_ID_KHRONOS, VX_LIBRARY_KHR_BASE) + 0x3F,
+ 
+    VX_KERNEL_BOX_3x3_TILING = VX_KERNEL_BASE(VX_ID_KHRONOS, VX_LIBRARY_KHR_BASE) + 0x50,
+
 };
 
 #ifdef  __cplusplus
